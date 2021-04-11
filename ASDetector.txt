@@ -1,0 +1,1745 @@
+Form1
+
+
+Private Sub Command1_Click()
+Form4.Show
+End Sub
+
+Private Sub Command10_Click()
+Form31.Show
+End Sub
+
+Private Sub Command11_Click()
+frmAbout.Show
+End Sub
+
+Private Sub Command12_Click()
+Form26.Show
+End Sub
+
+Private Sub Command13_Click()
+Form14.Show
+End Sub
+
+Private Sub Command14_Click()
+Form16.Show
+End Sub
+
+Private Sub Command2_Click()
+Form6.Show
+End Sub
+
+Private Sub Command3_Click()
+Form5.Show
+End Sub
+
+Private Sub Command4_Click()
+Form22.Show
+End Sub
+
+Private Sub Command5_Click()
+Form8.Show
+End Sub
+
+Private Sub Command6_Click()
+Form11.Show
+End Sub
+
+Private Sub Command7_Click()
+Form33.Show
+End Sub
+
+Private Sub Command8_Click()
+Form32.Show
+End Sub
+
+Private Sub Command9_Click()
+Form34.Show
+End Sub
+
+Private Sub Label3_Click()
+Form5.Show
+End Sub
+
+Private Sub Label4_Click()
+Form22.Show
+End Sub
+
+Private Sub Label5_Click()
+Form6.Show
+End Sub
+
+Private Sub Label6_Click()
+Form32.Show
+End Sub
+
+Private Sub Label7_Click()
+frmAbout.Show
+End Sub
+
+Form10 quiz spatial
+
+Private Sub Command1_Click()
+
+
+
+
+
+
+sum = Q1 + Q2 + Q3 + Q4 + Q5 + Q6 + Q7 + Q8 + Q9 + Q10 + Q11 + Q12 + Q13 + Q14 + Q15 + Q16 + Q17 + Q18
+
+If sum < 11 Then
+MsgBox ("Your score was " & "" & sum & "." & "  Visual-spatial learners scores above 10")
+Else: MsgBox ("Your score was " & "" & sum & "." & " You're probably a visual-spatial learner.")
+End If
+
+
+End Sub
+
+Private Sub Form_Load()
+Dim Q1 As Byte
+Dim Q2 As Byte
+Dim Q3 As Byte
+Dim Q4 As Byte
+Dim Q5 As Byte
+Dim Q6 As Byte
+Dim Q7 As Byte
+Dim Q8 As Byte
+Dim Q9 As Byte
+Dim Q10 As Byte
+Dim Q11 As Byte
+Dim Q12 As Byte
+Dim Q13 As Byte
+Dim Q14 As Byte
+Dim Q15 As Byte
+Dim Q16 As Byte
+Dim Q17 As Byte
+Dim Q18 As Byte
+Dim sum As Byte
+
+
+End Sub
+
+
+Form11 criterias
+
+Private Sub Command1_Click()
+Form7.Show
+End Sub
+
+Private Sub Command2_Click()
+Form2.Show
+End Sub
+
+Private Sub Command3_Click()
+Form3.Show
+End Sub
+
+Private Sub Command4_Click()
+Form23.Show
+End Sub
+
+Form17 
+
+
+Private Sub Command1_Click()
+If Option1.Value = True Then
+sum1 = sum1 + 2
+End If
+If Option2.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option3.Value = True Then
+sum1 = sum1 + 0
+End If
+If Option4.Value = True Then
+sum1 = sum1 + 0
+End If
+If Option5.Value = True Then
+sum1 = sum1 + 2
+End If
+If Option6.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option7.Value = True Then
+sum1 = sum1 + 0
+End If
+If Option8.Value = True Then
+sum1 = sum1 + 0
+End If
+If Option9.Value = True Then
+sum1 = sum1 + 0
+End If
+If Option10.Value = True Then
+sum1 = sum1 + 0
+End If
+If Option11.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option12.Value = True Then
+sum1 = sum1 + 2
+End If
+If Option13.Value = True Then
+sum1 = sum1 + 2
+End If
+If Option14.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option15.Value = True Then
+sum1 = sum1 + 0
+End If
+If Option16.Value = True Then
+sum1 = sum1 + 0
+End If
+If Option17.Value = True Then
+sum1 = sum1 + 0
+End If
+If Option18.Value = True Then
+sum1 = sum1 + 0
+End If
+If Option19.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option20.Value = True Then
+sum1 = sum1 + 2
+End If
+If Option21.Value = True Then
+sum1 = sum1 + 2
+End If
+If Option22.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option23.Value = True Then
+sum1 = sum1 + 0
+End If
+If Option24.Value = True Then
+sum1 = sum1 + 0
+End If
+If Option25.Value = True Then
+sum1 = sum1 + 0
+End If
+If Option26.Value = True Then
+sum1 = sum1 + 0
+End If
+If Option27.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option28.Value = True Then
+sum1 = sum1 + 2
+End If
+If Option29.Value = True Then
+sum1 = sum1 + 0
+End If
+If Option30.Value = True Then
+sum1 = sum1 + 0
+End If
+If Option31.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option32.Value = True Then
+sum1 = sum1 + 2
+End If
+If Option33.Value = True Then
+sum1 = sum1 + 2
+End If
+If Option34.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option35.Value = True Then
+sum1 = sum1 + 0
+End If
+If Option36.Value = True Then
+sum1 = sum1 + 0
+End If
+If Option37.Value = True Then
+sum1 = sum1 + 0
+End If
+If Option38.Value = True Then
+sum1 = sum1 + 0
+End If
+If Option39.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option40.Value = True Then
+sum1 = sum1 + 2
+End If
+
+
+
+If Option41.Value = True Then
+sum = sum + 2
+End If
+If Option42.Value = True Then
+sum = sum + 0
+End If
+If Option81.Value = True Then
+sum = sum + 0
+End If
+If Option44.Value = True Then
+sum = sum + 0
+End If
+If Option45.Value = True Then
+sum = sum + 0
+End If
+If Option46.Value = True Then
+sum = sum + 1
+End If
+If Option47.Value = True Then
+sum = sum + 2
+End If
+If Option48.Value = True Then
+sum = sum + 2
+End If
+If Option49.Value = True Then
+sum = sum + 1
+End If
+If Option50.Value = True Then
+sum = sum + 0
+End If
+If Option51.Value = True Then
+su = sum + 0
+End If
+If Option52.Value = True Then
+sum = sum + 2
+End If
+If Option53.Value = True Then
+sum = sum + 1
+End If
+If Option54.Value = True Then
+sum = sum + 0
+End If
+If Option55.Value = True Then
+sum = sum + 0
+End If
+If Option56.Value = True Then
+sum = sum + 0
+End If
+If Option57.Value = True Then
+sum = sum + 0
+End If
+If Option58.Value = True Then
+sum = sum + 1
+End If
+If Option59.Value = True Then
+sum = sum + 2
+End If
+If Option60.Value = True Then
+sum = sum + 2
+End If
+If Option61.Value = True Then
+sum = sum + 1
+End If
+If Option62.Value = True Then
+sum = sum + 0
+End If
+If Option63.Value = True Then
+sum = sum + 0
+End If
+If Option64.Value = True Then
+sum = sum + 2
+End If
+If Option65.Value = True Then
+sum = sum + 1
+End If
+If Option66.Value = True Then
+sum = sum + 0
+End If
+If Option67.Value = True Then
+sum = sum + 0
+End If
+If Option68.Value = True Then
+sum = sum + 0
+End If
+If Option69.Value = True Then
+sum = sum + 0
+End If
+If Option70.Value = True Then
+sum = sum + 1
+End If
+If Option71.Value = True Then
+sum = sum + 2
+End If
+If Option72.Value = True Then
+sum = sum + 2
+End If
+If Option73.Value = True Then
+sum = sum + 1
+End If
+If Option74.Value = True Then
+sum = sum + 0
+End If
+If Option75.Value = True Then
+sum = sum + 0
+End If
+If Option76.Value = True Then
+sum = sum + 2
+End If
+If Option77.Value = True Then
+sum = sum + 1
+End If
+If Option78.Value = True Then
+sum = sum + 0
+End If
+If Option79.Value = True Then
+sum = sum + 0
+End If
+If Option80.Value = True Then
+sum = sum + 1
+End If
+
+Text1.Text = (sum1)
+
+Text2.Text = (sum)
+
+E = Val(Text1.Text) - 9.785
+Text3.Text = (E)
+
+S = Val(Text2.Text) - 6.09
+
+Text4.Text = (S)
+
+
+
+EQ = E / 20
+SQ = S / 20
+Text6.Text = (EQ)
+Text7.Text = (SQ)
+BrainType = SQ - EQ
+
+Text5.Text = BrainType
+
+
+
+If BrainType < -0.16 Then
+MsgBox ("Extreme E")
+Text8.Text = ("Extreme E")
+End If
+If BrainType > -0.16 And BrainType < -0.048 Then
+MsgBox ("Type E")
+Text8.Text = ("E")
+End If
+
+If BrainType > -0.048 And BrainType < 0.027 Then
+MsgBox ("Balanced")
+Text8.Text = ("B")
+End If
+
+If BrainType > 0.027 And BrainType < 0.21 Then
+MsgBox ("Type S")
+Text8.Text = ("Type S")
+End If
+
+If BrainType > 0.21 Then
+MsgBox ("Extreme S")
+Text8.Text = ("Extreme S")
+End If
+
+
+
+
+
+
+
+
+
+
+
+
+End Sub
+
+Private Sub Command2_Click()
+Form18.Show
+End Sub
+
+Private Sub Form_Load()
+Dim Option1 As Byte
+Dim Option2 As Byte
+Dim Option3 As Byte
+Dim Option4 As Byte
+Dim Option5 As Byte
+Dim Option6 As Byte
+Dim Option7 As Byte
+Dim Option8 As Byte
+Dim Option9 As Byte
+Dim Option10 As Byte
+Dim Option11 As Byte
+Dim Option12 As Byte
+Dim Option13 As Byte
+Dim Option14 As Byte
+Dim Option15 As Byte
+Dim Option16 As Byte
+Dim Option17 As Byte
+Dim Option18 As Byte
+Dim Option19 As Byte
+Dim Option20 As Byte
+Dim Option21 As Byte
+Dim Option22 As Byte
+Dim Option23 As Byte
+Dim Option24 As Byte
+Dim Option25 As Byte
+Dim Option26 As Byte
+Dim Option27 As Byte
+Dim Option28 As Byte
+Dim Option29 As Byte
+Dim Option30 As Byte
+Dim Option31 As Byte
+Dim Option32 As Byte
+Dim Option33 As Byte
+Dim Option34 As Byte
+Dim Option35 As Byte
+Dim Option36 As Byte
+Dim Option37 As Byte
+Dim Option38 As Byte
+Dim Option39 As Byte
+Dim Option40 As Byte
+Dim sum1 As Double
+Dim Option41 As Byte
+Dim Option42 As Byte
+Dim Option81 As Byte
+Dim Option44 As Byte
+Dim Option45 As Byte
+Dim Option46 As Byte
+Dim Option47 As Byte
+Dim Option48 As Byte
+Dim Option49 As Byte
+Dim Option50 As Byte
+Dim Option51 As Byte
+Dim Option52 As Byte
+Dim Option53 As Byte
+Dim Option54 As Byte
+Dim Option55 As Byte
+Dim Option56 As Byte
+Dim Option57 As Byte
+Dim Option58 As Byte
+Dim Option59 As Byte
+Dim Option60 As Byte
+Dim Option61 As Byte
+Dim Option62 As Byte
+Dim Option63 As Byte
+Dim Option64 As Byte
+Dim Option65 As Byte
+Dim Option66 As Byte
+Dim Option67 As Byte
+Dim Option68 As Byte
+Dim Option69 As Byte
+Dim Option70 As Byte
+Dim Option71 As Byte
+Dim Option72 As Byte
+Dim Option73 As Byte
+Dim Option74 As Byte
+Dim Option75 As Byte
+Dim Option76 As Byte
+Dim Option77 As Byte
+Dim Option78 As Byte
+Dim Option79 As Byte
+Dim Option80 As Byte
+Dim sum As Double
+Dim BrainType As Double
+Dim E As Double
+Dim S As Double
+Dim EQ As Double
+Dim SQ As Double
+
+End Sub
+
+Form2
+
+
+Private Sub Command1_Click()
+If Option1.Value = True Then
+sum = sum + 2
+End If
+If Option6.Value = True Then
+sum = sum + 2
+End If
+If Option9.Value = True Then
+sum = sum + 2
+End If
+If Option12.Value = True Then
+sum = sum + 2
+End If
+If Option13.Value = True Then
+sum = sum + 2
+End If
+If Option16.Value = True Then
+sum = sum + 2
+End If
+If Option2.Value = True Then
+sum = sum + 1
+End If
+If Option5.Value = True Then
+sum = sum + 1
+End If
+If Option8.Value = True Then
+sum = sum + 1
+End If
+If Option11.Value = True Then
+sum = sum + 1
+End If
+If Option14.Value = True Then
+sum = sum + 1
+End If
+If Option17.Value = True Then
+sum = sum + 1
+End If
+Text1.Text = (sum)
+End Sub
+
+Private Sub Form_Load()
+Dim Option1 As Byte
+Dim Option13 As Byte
+Dim Option16 As Byte
+Dim Option6 As Byte
+Dim Option9 As Byte
+Dim Option12 As Byte
+Dim sum As Byte
+Dim Option2 As Byte
+Dim Option5 As Byte
+Dim Option8 As Byte
+Dim Option11 As Byte
+Dim Option14 As Byte
+Dim Option17 As Byte
+
+
+End Sub
+
+Form24
+
+Private Sub Command1_Click()
+If Option3.Value = True Then
+sum = sum + 1
+End If
+If Option7.Value = True Then
+sum = sum + 1
+End If
+If Option10.Value = True Then
+sum = sum + 1
+End If
+If Option14.Value = True Then
+sum = sum + 1
+End If
+If Option19.Value = True Then
+sum = sum + 1
+End If
+If Option21.Value = True Then
+sum = sum + 1
+End If
+If Option25.Value = True Then
+sum = sum + 1
+End If
+If Option32.Value = True Then
+sum = sum + 1
+End If
+If Option34.Value = True Then
+sum = sum + 1
+End If
+
+If Option37.Value = True Then
+sum = sum + 1
+End If
+If Option42.Value = True Then
+sum = sum + 1
+End If
+If Option45.Value = True Then
+sum = sum + 1
+End If
+If Option49.Value = True Then
+sum = sum + 1
+End If
+If Option53.Value = True Then
+sum = sum + 1
+End If
+If Option59.Value = True Then
+sum = sum + 1
+End If
+If Option61.Value = True Then
+sum = sum + 1
+End If
+If Option67.Value = True Then
+sum = sum + 1
+End If
+If Option69.Value = True Then
+sum = sum + 1
+End If
+If Option76.Value = True Then
+sum = sum + 1
+End If
+If Option79.Value = True Then
+sum = sum + 1
+End If
+
+MsgBox ("Total: " & "" & sum)
+
+End Sub
+
+Private Sub Form_Load()
+Dim Option3 As Byte
+Dim Option7 As Byte
+Dim Option10 As Byte
+Dim Option14 As Byte
+Dim Option19 As Byte
+Dim Option21 As Byte
+Dim Option25 As Byte
+Dim Option32 As Byte
+Dim Option34 As Byte
+Dim Option37 As Byte
+Dim Option42 As Byte
+Dim Option45 As Byte
+Dim Option49 As Byte
+Dim Option53 As Byte
+Dim Option59 As Byte
+Dim Option61 As Byte
+Dim Option67 As Byte
+Dim Option69 As Byte
+Dim Option76 As Byte
+Dim Option79 As Byte
+Dim sum As Byte
+End Sub
+
+Form25
+
+
+
+Private Sub Command1_Click()
+If Option1.Value = True Then
+sum = sum + 1
+End If
+If Option6.Value = True Then
+sum = sum + 1
+End If
+If Option11.Value = True Then
+sum = sum + 1
+End If
+If Option14.Value = True Then
+sum = sum + 1
+End If
+If Option19.Value = True Then
+sum = sum + 1
+End If
+If Option22.Value = True Then
+sum = sum + 1
+End If
+If Option27.Value = True Then
+sum = sum + 1
+End If
+If Option29.Value = True Then
+sum = sum + 1
+End If
+If Option36.Value = True Then
+sum = sum + 1
+End If
+
+If Option37.Value = True Then
+sum = sum + 1
+End If
+If Option43.Value = True Then
+sum = sum + 1
+End If
+If Option47.Value = True Then
+sum = sum + 1
+End If
+If Option50.Value = True Then
+sum = sum + 1
+End If
+If Option56.Value = True Then
+sum = sum + 1
+End If
+If Option57.Value = True Then
+sum = sum + 1
+End If
+
+If Option62.Value = True Then
+sum = sum + 1
+End If
+If Option65.Value = True Then
+sum = sum + 1
+End If
+If Option69.Value = True Then
+sum = sum + 1
+End If
+If Option76.Value = True Then
+sum = sum + 1
+End If
+If Option78.Value = True Then
+sum = sum + 1
+End If
+If Option82.Value = True Then
+sum = sum + 1
+End If
+
+If Option85.Value = True Then
+sum = sum + 1
+End If
+If Option91.Value = True Then
+sum = sum + 1
+End If
+If Option93.Value = True Then
+sum = sum + 1
+End If
+If Option100.Value = True Then
+sum = sum + 1
+End If
+If Option103.Value = True Then
+sum = sum + 1
+End If
+If Option106.Value = True Then
+sum = sum + 1
+End If
+If Option109.Value = True Then
+sum = sum + 1
+End If
+If Option116.Value = True Then
+sum = sum + 1
+End If
+If Option118.Value = True Then
+sum = sum + 1
+End If
+If Option122.Value = True Then
+sum = sum + 1
+End If
+If Option125.Value = True Then
+sum = sum + 1
+End If
+If Option132.Value = True Then
+sum = sum + 1
+End If
+If Option135.Value = True Then
+sum = sum + 1
+End If
+If Option138.Value = True Then
+sum = sum + 1
+End If
+
+If Option143.Value = True Then
+sum = sum + 1
+End If
+
+MsgBox ("Total: " & "" & sum)
+End Sub
+
+Private Sub Form_Load()
+Dim Option1 As Byte
+Dim Option6 As Byte
+Dim Option11 As Byte
+Dim Option14 As Byte
+Dim Option19 As Byte
+Dim Option22 As Byte
+Dim Option27 As Byte
+Dim Option29 As Byte
+Dim Option36 As Byte
+Dim Option37 As Byte
+Dim Option43 As Byte
+Dim Option47 As Byte
+Dim Option50 As Byte
+Dim Option53 As Byte
+Dim Option57 As Byte
+Dim Option62 As Byte
+Dim Option65 As Byte
+Dim Option69 As Byte
+Dim Option76 As Byte
+Dim Option78 As Byte
+Dim Option82 As Byte
+Dim Option85 As Byte
+Dim Option91 As Byte
+Dim Option93 As Byte
+Dim Option100 As Byte
+Dim Option103 As Byte
+Dim Option106 As Byte
+Dim Option109 As Byte
+Dim Option116 As Byte
+Dim Option118 As Byte
+Dim Option122 As Byte
+Dim Option125 As Byte
+Dim Option132 As Byte
+Dim Option135 As Byte
+Dim Option138 As Byte
+Dim Option143 As Byte
+Dim sum As Byte
+End Sub
+
+Form3
+
+Private Sub Command1_Click()
+If Option1.Value = True Then
+sum = sum + 2
+End If
+If Option14.Value = True Then
+sum = sum + 2
+End If
+If Option15.Value = True Then
+sum = sum + 2
+End If
+
+If Option26.Value = True Then
+sum = sum + 2
+End If
+
+If Option27.Value = True Then
+sum = sum + 2
+End If
+If Option18.Value = True Then
+sum = sum + 2
+End If
+If Option19.Value = True Then
+sum = sum + 2
+End If
+If Option20.Value = True Then
+sum = sum + 2
+End If
+If Option31.Value = True Then
+sum = sum + 2
+End If
+If Option22.Value = True Then
+sum = sum + 2
+End If
+If Option23.Value = True Then
+sum = sum + 2
+End If
+If Option2.Value = True Then
+sum = sum + 1
+End If
+If Option4.Value = True Then
+sum = sum + 1
+End If
+If Option5.Value = True Then
+sum = sum + 1
+End If
+If Option6.Value = True Then
+sum = sum + 1
+End If
+If Option7.Value = True Then
+sum = sum + 1
+End If
+If Option8.Value = True Then
+sum = sum + 1
+End If
+If Option9.Value = True Then
+sum = sum + 1
+End If
+If Option10.Value = True Then
+sum = sum + 1
+End If
+If Option11.Value = True Then
+sum = sum + 1
+End If
+If Option12.Value = True Then
+sum = sum + 1
+End If
+If Option13.Value = True Then
+sum = sum + 1
+End If
+
+Text1.Text = (sum)
+
+End Sub
+
+Private Sub Form_Load()
+Dim Option1 As Byte
+Dim Option14 As Byte
+Dim Option15 As Byte
+Dim sum As Byte
+Dim Option26 As Byte
+Dim Option27 As Byte
+Dim Option18 As Byte
+Dim Option19 As Byte
+Dim Option20 As Byte
+Dim Option31 As Byte
+Dim Option22 As Byte
+Dim Option23 As Byte
+Dim Optio2 As Byte
+Dim Option4 As Byte
+Dim Option5 As Byte
+Dim Option6 As Byte
+Dim Option7 As Byte
+Dim Option8 As Byte
+Dim Option9 As Byte
+Dim Option10 As Byte
+Dim Option11 As Byte
+Dim Option12 As Byte
+Dim Option13 As Byte
+End Sub
+
+Fform31
+
+
+Private Sub Command1_Click()
+
+
+ 
+ 
+ If Check1.Value = 1 Then
+ Option1 = (" Learning disabilities are neurovelopmental conditions by itself. ")
+ 
+ End If
+ If Check2.Value = 1 Then
+ Option2 = (" Comorbidities are the norm in ASC. OCD and bipolar disorder reaches over 20% compared to 3% in typical population, presumably due to shared neural substrates. ")
+  End If
+ If Check3.Value = 1 Then
+ Option3 = (" Epilepsy and certain genetic conditions including CAH and PCOS (Chakrabarti et al.) are significantly related to autism. ")
+ 
+ End If
+ If Check4.Value = 1 Then
+ Option4 = (" Left handedness is common in neurodevelopmental disorders (the only exception seems to be Nonverbal Learning Disability) and autism has the highest ratio. ")
+ 
+ End If
+
+ If Check5.Value = 1 Then
+ Option5 = (" Both, autism and synesthesia have been associated with synaptic pruning. ")
+ 
+ End If
+
+If Check6.Value = 1 Then
+Option6 = (" Research studies using polysomnography have shown abnormalities in autistic participants. ")
+
+End If
+
+If Check7.Value = 1 Then
+Option7 = (" Sensory Integration Disorder is part of current diagnostic criteria and Central Auditory Processing Disorder affects autistic people in varying degrees. ")
+
+End If
+
+If Check8.Value = 1 Then
+Option8 = (" Early autism is frequently diagnosed before age 3 and Asperger syndrome about 6 years of age. Personality disorders cannot be diagnosed before age 9. ")
+
+End If
+
+If Check9.Value = 1 Then
+Option9 = (" Schizophrenia has a deteriorating course. Autistic sociability tends to improve, and autistic personality is characterized by the active-but-odd, aloof, passive and rigid subgroups. ")
+
+End If
+
+If Check10.Value = 1 Then
+Option10 = (" Discrepancies between Verbal and Performance IQ in either direction are common in ASD. A split of 16 points or above is very uncommon in typical population and needs further investigation. Verbal peak usually seen in Asperger syndrome and performance peak in classic autism often match with percentile in Raven Progressive Matrices and largely outperform scores in Vineland Adaptive Behavior Scale. ")
+
+End If
+
+If Check11.Value = 1 Then
+Option11 = (" Autism is associated with altered brain overconnectivity / underconnectivity. ")
+
+End If
+
+If Check12.Value = 1 Then
+Option12 = (" These issues are often present in ASD. ")
+
+End If
+
+If Check13.Value = 1 Then
+Option13 = (" ASD have higher ratios of gender dysphoria, asexuality and other orientations than typical population, possibly due to effects of autism in brain development. ")
+
+End If
+
+
+
+ Text1.Text = (Option1 & Option2 & Option3 & Option4 & Option5 & Option6 & Option7 & Option8 & Option9 & Option10 & Option11 & Option12 & Option13)
+ 
+ 
+ 
+
+ 
+ 
+
+
+
+
+End Sub
+
+
+Form4
+
+Private Sub Command1_Click()
+If Option1.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option2.Value = True Then
+sum1 = sum1 + 0
+End If
+If Option3.Value = True Then
+sum1 = sum1 + 0
+End If
+If Option4.Value = True Then
+sum1 = sum1 + 0
+End If
+If Option5.Value = True Then
+sum1 = sum1 + 0
+End If
+If Option6.Value = True Then
+sum1 = sum1 + 0
+End If
+If Option7.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option8.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option9.Value = True Then
+sum1 = sum1 + 0
+End If
+If Option10.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option11.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option12.Value = True Then
+sum1 = sum1 + 0
+End If
+If Option13.Value = True Then
+sum1 = sum1 + 0
+End If
+If Option14.Value = True Then
+sum1 = sum1 + 0
+End If
+If Option15.Value = True Then
+sum1 = sum1 + 0
+End If
+If Option16.Value = True Then
+sum1 = sum1 + 0
+End If
+If Option17.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option18.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option19.Value = True Then
+sum1 = sum1 + 0
+End If
+If Option20.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option21.Value = True Then
+sum1 = sum1 + 0
+End If
+If Option22.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option23.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option24.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option25.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option26.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option27.Value = True Then
+sum1 = sum1 + 0
+End If
+If Option28.Value = True Then
+sum1 = sum1 + 0
+End If
+If Option29.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option30.Value = True Then
+sum1 = sum1 + 0
+End If
+If Option31.Value = True Then
+sum1 = sum1 + 0
+End If
+If Option32.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option33.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option34.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option35.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option36.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option37.Value = True Then
+sum1 = sum1 + 0
+End If
+If Option38.Value = True Then
+sum1 = sum1 + 0
+End If
+If Option39.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option40.Value = True Then
+sum1 = sum1 + 0
+End If
+
+
+
+MsgBox ("Total: " & sum1 & " A score of 6 of above indicates the need of a specialist diagnostic assesment")
+End Sub
+
+
+Private Sub Form_Load()
+Dim Option1 As Byte
+Dim Option2 As Byte
+Dim Option3 As Byte
+Dim Option4 As Byte
+Dim Option5 As Byte
+Dim Option6 As Byte
+Dim Option7 As Byte
+Dim Option8 As Byte
+Dim Option9 As Byte
+Dim Option10 As Byte
+Dim Option11 As Byte
+Dim Option12 As Byte
+Dim Option13 As Byte
+Dim Option14 As Byte
+Dim Option15 As Byte
+Dim Option16 As Byte
+Dim Option17 As Byte
+Dim Option18 As Byte
+Dim Option19 As Byte
+Dim Option20 As Byte
+Dim Option21 As Byte
+Dim Option22 As Byte
+Dim Option23 As Byte
+Dim Option24 As Byte
+Dim Option25 As Byte
+Dim Option26 As Byte
+Dim Option27 As Byte
+Dim Option28 As Byte
+Dim Option29 As Byte
+Dim Option30 As Byte
+Dim Option31 As Byte
+Dim Option32 As Byte
+Dim Option33 As Byte
+Dim Option34 As Byte
+Dim Option35 As Byte
+Dim Option36 As Byte
+Dim Option37 As Byte
+Dim Option38 As Byte
+Dim Option39 As Byte
+Dim Option40 As Byte
+Dim sum1 As Byte
+End Sub
+
+Form7
+
+
+
+
+
+Private Sub Command2_Click()
+
+
+If Option3.Value = True Then
+sum1 = sum1 + 2
+
+End If
+If Option6.Value = True Then
+sum1 = sum1 + 2
+
+End If
+If Option9.Value = True Then
+sum1 = sum1 + 2
+
+End If
+If Option40.Value = True Then
+sum1 = sum1 + 2
+
+End If
+If Option41.Value = True Then
+sum1 = sum1 + 2
+End If
+If Option34.Value = True Then
+sum1 = sum1 + 2
+End If
+If Option35.Value = True Then
+sum1 = sum1 + 2
+End If
+
+If Option36.Value = True Then
+sum1 = sum1 + 2
+End If
+If Option37.Value = True Then
+sum1 = sum1 + 2
+End If
+If Option38.Value = True Then
+sum1 = sum1 + 2
+End If
+
+If Option39.Value = True Then
+sum1 = sum1 + 2
+End If
+
+
+If Option30.Value = True Then
+sum1 = sum1 + 2
+End If
+
+If Option48.Value = True Then
+sum1 = sum1 + 2
+End If
+
+If Option49.Value = True Then
+sum1 = sum1 + 2
+End If
+
+If Option51.Value = True Then
+sum1 = sum1 + 2
+End If
+
+If Option63.Value = True Then
+sum1 = sum1 + 2
+End If
+
+If Option54.Value = True Then
+sum1 = sum1 + 2
+End If
+
+If Option66.Value = True Then
+sum1 = sum1 + 2
+End If
+
+If Option67.Value = True Then
+sum1 = sum1 + 2
+End If
+
+If Option68.Value = True Then
+sum1 = sum1 + 2
+End If
+
+If Option69.Value = True Then
+sum1 = sum1 + 2
+End If
+
+If Option61.Value = True Then
+sum1 = sum1 + 2
+End If
+
+If Option64.Value = True Then
+sum1 = sum1 + 2
+End If
+
+
+If Option2.Value = True Then
+sum1 = sum1 + 1
+End If
+
+If Option5.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option8.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option10.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option11.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option12.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option13.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option14.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option15.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option16.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option17.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option18.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option19.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option20.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option21.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option22.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option23.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option24.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option25.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option26.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option27.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option28.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option29.Value = True Then
+sum1 = sum1 + 1
+End If
+
+Text1.Text = (sum1)
+
+End Sub
+
+Private Sub Form_Load()
+
+
+
+
+Dim Option3 As Byte
+Dim Option6 As Byte
+Dim Option9 As Byte
+Dim Option40 As Byte
+Dim Option41 As Byte
+Dim Option34 As Byte
+Dim Option35 As Byte
+Dim Option36 As Byte
+Dim Option37 As Byte
+Dim Option38 As Byte
+Dim Option39 As Byte
+
+Dim sum1 As Byte
+
+
+Dim Option30 As Byte
+Dim Option48 As Byte
+Dim Option49 As Byte
+Dim Option61 As Byte
+Dim Option64 As Byte
+Dim Option51 As Byte
+Dim Option63 As Byte
+Dim Option54 As Byte
+Dim Option66 As Byte
+Dim Option67 As Byte
+Dim Option68 As Byte
+Dim Option69 As Byte
+
+Dim Option2 As Byte
+Dim Option5 As Byte
+Dim Option8 As Byte
+Dim Option10 As Byte
+
+Dim Option11 As Byte
+Dim Option12 As Byte
+Dim Option13 As Byte
+Dim Option14 As Byte
+Dim Option15 As Byte
+Dim Option16 As Byte
+Dim Option17 As Byte
+Dim Option18 As Byte
+
+Dim Option19 As Byte
+Dim Option20 As Byte
+
+Dim Option21 As Byte
+
+Dim Option22 As Byte
+
+Dim Option23 As Byte
+Dim Option24 As Byte
+Dim Option25 As Byte
+Dim Option26 As Byte
+
+Dim Option27 As Byte
+Dim Option28 As Byte
+
+Dim Option29 As Byte
+
+
+
+End Sub
+
+Form8
+
+Private Sub Command1_Click()
+If Option1.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option2.Value = True Then
+sum2 = sum2 + 1
+End If
+If Option3.Value = True Then
+sum3 = sum3 + 1
+End If
+If Option4.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option5.Value = True Then
+sum2 = sum2 + 1
+End If
+If Option6.Value = True Then
+sum3 = sum3 + 1
+End If
+If Option7.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option8.Value = True Then
+sum2 = sum2 + 1
+End If
+If Option9.Value = True Then
+sum3 = sum3 + 1
+End If
+If Option10.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option11.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option12.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option13.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option14.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option15.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option16.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option17.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option18.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option19.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option20.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option21.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option22.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option23.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option24.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option25.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option26.Value = True Then
+sum1 = sum1 + 1
+End If
+If Option27.Value = True Then
+sum2 = sum2 + 1
+End If
+If Option28.Value = True Then
+sum2 = sum2 + 1
+End If
+If Option29.Value = True Then
+sum2 = sum2 + 1
+End If
+If Option30.Value = True Then
+sum2 = sum2 + 1
+End If
+If Option31.Value = True Then
+sum2 = sum2 + 1
+End If
+If Option32.Value = True Then
+sum2 = sum2 + 1
+End If
+If Option33.Value = True Then
+sum2 = sum2 + 1
+End If
+If Option34.Value = True Then
+sum2 = sum2 + 1
+End If
+If Option35.Value = True Then
+sum2 = sum2 + 1
+End If
+If Option36.Value = True Then
+sum2 = sum2 + 1
+End If
+If Option37.Value = True Then
+sum2 = sum2 + 1
+End If
+If Option38.Value = True Then
+sum2 = sum2 + 1
+End If
+If Option39.Value = True Then
+sum2 = sum2 + 1
+End If
+If Option40.Value = True Then
+sum2 = sum2 + 1
+End If
+If Option41.Value = True Then
+sum2 = sum2 + 1
+End If
+If Option42.Value = True Then
+sum2 = sum2 + 1
+End If
+If Option43.Value = True Then
+sum2 = sum2 + 1
+End If
+If Option44.Value = True Then
+sum3 = sum3 + 1
+End If
+If Option45.Value = True Then
+sum3 = sum3 + 1
+End If
+If Option46.Value = True Then
+sum3 = sum3 + 1
+End If
+If Option47.Value = True Then
+sum3 = sum3 + 1
+End If
+If Option48.Value = True Then
+sum3 = sum3 + 1
+End If
+If Option49.Value = True Then
+sum3 = sum3 + 1
+End If
+If Option50.Value = True Then
+sum3 = sum3 + 1
+End If
+If Option51.Value = True Then
+sum3 = sum3 + 1
+End If
+If Option52.Value = True Then
+sum3 = sum3 + 1
+End If
+If Option53.Value = True Then
+sum3 = sum3 + 1
+End If
+If Option54.Value = True Then
+sum3 = sum3 + 1
+End If
+If Option55.Value = True Then
+sum3 = sum3 + 1
+End If
+If Option56.Value = True Then
+sum3 = sum3 + 1
+End If
+If Option57.Value = True Then
+sum3 = sum3 + 1
+End If
+If Option58.Value = True Then
+sum3 = sum3 + 1
+End If
+If Option59.Value = True Then
+sum3 = sum3 + 1
+End If
+If Option60.Value = True Then
+sum3 = sum3 + 1
+End If
+
+multi1 = sum1 * 1
+multi2 = sum2 * 2
+multi3 = sum3 * 3
+
+Total1 = multi1 + multi2 + multi3
+
+If Total1 < 26 Then
+
+MsgBox ("Total: " & Total1 & " Non Autistic")
+Else
+MsgBox ("Total: " & Total1 & " Autistic. Make sure your results are not due to OCD or Tourette  syndrome (even if you have one of those conditions)")
+End If
+
+End Sub
+
+Private Sub Form_Load()
+Dim Option1 As Byte
+Dim Option2 As Byte
+Dim Option3 As Byte
+Dim Option4 As Byte
+Dim Option5 As Byte
+Dim Option6 As Byte
+Dim Option7 As Byte
+Dim Option8 As Byte
+Dim Option9 As Byte
+Dim Option10 As Byte
+Dim Option11 As Byte
+Dim Option12 As Byte
+Dim Option13 As Byte
+Dim Option14 As Byte
+Dim Option15 As Byte
+Dim Option16 As Byte
+Dim Option17 As Byte
+Dim Option18 As Byte
+Dim Option19 As Byte
+Dim Option20 As Byte
+Dim Option21 As Byte
+Dim Option22 As Byte
+Dim Option23 As Byte
+Dim Option24 As Byte
+Dim Option25 As Byte
+Dim Option26 As Byte
+Dim Option27 As Byte
+Dim Option28 As Byte
+Dim Option29 As Byte
+Dim Option30 As Byte
+Dim Option31 As Byte
+Dim Option32 As Byte
+Dim Option33 As Byte
+Dim Option34 As Byte
+Dim Option35 As Byte
+Dim Option36 As Byte
+Dim Option37 As Byte
+Dim Option38 As Byte
+Dim Option39 As Byte
+Dim Option40 As Byte
+Dim Option41 As Byte
+Dim Option42 As Byte
+Dim Option43 As Byte
+Dim Option44 As Byte
+Dim Option45 As Byte
+Dim Option46 As Byte
+Dim Option47 As Byte
+Dim Option48 As Byte
+Dim Option49 As Byte
+Dim Option50 As Byte
+Dim Option51 As Byte
+Dim Option52 As Byte
+Dim Option53 As Byte
+Dim Option54 As Byte
+Dim Option55 As Byte
+Dim Option56 As Byte
+Dim Option57 As Byte
+Dim Option58 As Byte
+Dim Option59 As Byte
+Dim Option60 As Byte
+
+Dim sum1 As Byte
+Dim sum2 As Byte
+Dim sum3 As Byte
+Dim multi1 As Byte
+Dim multi2 As Byte
+Dim multi3 As Byte
+Dim Total1 As Byte
+
+End Sub
+
+
+
+
+
+
+
+
+
+
+
+
+
